@@ -1,0 +1,41 @@
+{
+  "name": "rollup-plugin-postcss-shadow",
+  "version": "0.1.0",
+  "description": "Inline CSS styles inside shadow DOM with Rollup and PostCSS",
+  "keywords": [
+    "rollup-plugin",
+    "postcss",
+    "web-components"
+  ],
+  "author": "Juan Mellado",
+  "license": "MIT",
+  "homepage": "https://github.com/jcmellado/rollup-plugin-postcss-shadow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcmellado/rollup-plugin-postcss-shadow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcmellado/rollup-plugin-postcss-shadow/issues"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "main": "dist/rollup-plugin-postcss-shadow.cjs.js",
+  "module": "dist/rollup-plugin-postcss-shadow.es.js",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "postcss": "^5.2.17",
+    "rollup-pluginutils": "^2.0.1"
+  }
+}

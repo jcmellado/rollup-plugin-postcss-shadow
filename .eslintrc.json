@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "google"
+  ],
+  "plugins": [
+    "babel"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "object-curly-spacing": "off",
+    "require-jsdoc": "off"
+  }
+}
