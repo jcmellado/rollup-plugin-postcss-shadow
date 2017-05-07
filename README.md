@@ -16,7 +16,7 @@ import cssshadow from 'rollup-plugin-postcss-shadow';
 export default {
   entry: 'src/index.js',
   plugins: [
-    cssshadow()
+    cssshadow(),
   ]
 }
 ```
@@ -108,7 +108,7 @@ export default {
     cssshadow({
 
       // File extensions (default [.css])
-      extensions: ['.css', '.scss']
+      extensions: ['.css', '.scss'],
 
       // PostCSS plugins (default [])
       plugins: [
